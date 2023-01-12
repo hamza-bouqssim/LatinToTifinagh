@@ -60,5 +60,3 @@ function latinToTinifinagh() {
 }
 
 btn.addEventListener('click', latinToTinifinagh);
-
-  

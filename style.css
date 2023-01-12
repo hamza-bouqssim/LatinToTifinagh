@@ -1,0 +1,127 @@
+body {
+    background-color: #f1f1f1;
+    font-family: Arial, sans-serif;
+    padding: 50px;
+}
+
+h1 {
+    text-align: center;
+    color: #202020;
+    margin-bottom: 50px;
+}
+
+label {
+    color: #333333;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/* Input field */
+input[type="text"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    color: #333333;
+    font-size: 16px;
+}
+
+/* Execute button */
+input[type="button"] {
+    width: 100%;
+    background-color: #4285f4; /* Google blue */
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="button"]:hover {
+    background-color: #3e7ae4;
+}
+
+/* Output field */
+.output {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    font-size: 20px;
+    color: #333333;
+    font-weight: bold;
+    overflow: scroll;
+    max-height: 300px;
+    text-align: center;
+}
+
+label, input[type="text"], input[type="button"] {
+    display: block;
+    margin: 0 auto; /* center horizontally */
+    text-align: center; /* center text horizontally */
+}
+
+.center {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    input[type="text"] {
+        width: 50%;
+    }
+    input[type="button"] {
+        width: 50%;
+    }
+    .output {
+        font-size: 18px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    input[type="text"] {
+        width: 60%;
+    }
+    input[type="button"] {
+        width: 20%;
+    }
+    .output {
+        font-size: 22px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    input[type="text"] {
+        width: 70%;
+    }
+    input[type="button"] {
+        width: 10%;
+    }
+    .output {
+        font-size: 26px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    input[type="text"] {
+        width: 80%;
+    }
+    input[type="button"] {
+        width: 10%;
+    }
+    .output {
+        font-size: 30px;
+    }
+}
